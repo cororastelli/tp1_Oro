@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #224468;
+    color: #fff;
+}
+
+#header-principal {
+    background-color: #3a1d3b;
+    text-align: center;
+    padding: 30px;
+}
+
+.subtitulo {
+    color: #d9ca8c;
+    margin: 10px;
+}
+
+main section {
+    background-color: #676a74;
+    padding: 25px;
+    margin: 15px;
+}
+
+h2 + p {
+    color: #fff;
+}
+
+h3 ~ ul {
+    background-color: #224468;
+    padding: 20px;
+}
+
+.momento {
+    width: 250px;
+    height: 100px;
+    background-color: #3a1d3b;
+    padding: 15px;
+    margin: 10px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #3a1d3b;
+    color: #d9ca8c;
+}
